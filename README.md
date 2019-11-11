@@ -21,6 +21,17 @@ mdcat [FILE]...
 terminal. With no arguments, `mdcat` waits for input on **stdin** and produces
 the parsed output once it is closed.
 
+## Notes
+
+`mdcat` is based on [go-termd](https://github.com/tj/go-termd), which does all
+the work.
+
+## Changelog
+
+### 0.0.1
+
+- Initial release
+
 ## Sandbox
 
 Below you'll find a few typical markdown constructs, used to test
